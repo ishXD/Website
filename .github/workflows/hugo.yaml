@@ -35,6 +35,6 @@ jobs:
           cd ${GITHUB_WORKSPACE}/built-site
           git add .
           git config user.name 'ishxd'
-          git config user.email 'ishajayal1@gmail.com'
+          git config user.email 'ishajayal1~@gmail.com'
           git commit -m 'Updated site'
           git push          
