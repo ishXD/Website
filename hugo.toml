@@ -1,4 +1,4 @@
-baseURL = 'https://ishxd.github.io/Website/'
+baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'isjaya'
 theme = 'hello-friend-ng'
