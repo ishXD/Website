@@ -1,9 +1,10 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://ishxd.github.io/isjaya/'
 languageCode = 'en-us'
 title = 'isjaya'
 theme = 'hello-friend-ng'
 paginate     = 10
 rssLimit = 10
+canonifyURLs: true
 
 [author]
   name = "Isjaya"
