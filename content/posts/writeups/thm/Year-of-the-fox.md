@@ -1,7 +1,7 @@
 ---
 title: "Year of the Fox"
 date: 2023-07-12T16:10:31+05:30
-draft: true
+draft: false
 toc: true
 images:
 tags:

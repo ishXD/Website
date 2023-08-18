@@ -1,7 +1,7 @@
 ---
 title: "Year of the Dog"
 date: 2023-07-15T16:08:57+05:30
-draft: true
+draft: false
 toc: true
 images:
 tags:

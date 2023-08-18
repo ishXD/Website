@@ -1,7 +1,7 @@
 ---
 title: "About Me"
 date: 2023-08-15T15:19:14+05:30
-draft: true
+draft: false
 ---
 
 Hello and welcome to my blog!

@@ -1,7 +1,7 @@
 ---
 title: "Year of the Pig"
 date: 2023-07-13T16:07:36+05:30
-draft: true
+draft: false
 toc: true
 images:
 tags:
