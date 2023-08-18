@@ -4,7 +4,7 @@ title = 'isjaya'
 theme = 'hello-friend-ng'
 paginate     = 10
 rssLimit = 10
-canonifyURLs: true
+canonifyURLs =  true
 
 [author]
   name = "Isjaya"
