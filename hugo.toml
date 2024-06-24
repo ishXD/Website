@@ -6,6 +6,10 @@ paginate     = 10
 rssLimit = 10
 canonifyURLs =  true
 
+PygmentsCodeFences = true
+PygmentsStyle = "onedark"
+
+
 [author]
   name = "Isjaya"
 
@@ -90,3 +94,13 @@ canonifyURLs =  true
     name       = "./about"
     url        = "/about"
 
+[markup.highlight]
+      codeFences = true
+      guessSyntax = true
+      hl_Lines = ""
+      lineNoStart = 1
+      lineNos = true
+      lineNumbersInTable = true
+      style = 'monokai'
+      tabWidth = 4
+      noClasses = false
