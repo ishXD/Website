@@ -1,6 +1,6 @@
 ---
 title: "Mini HTTP Server in C"
-date: 2023-07-15T16:08:57+05:30
+date: {{ .Date }}
 draft: false
 toc: true
 images:
