@@ -107,5 +107,5 @@ PygmentsStyle = "onedark"
     lineNumbersInTable = true
     noClasses = true
     noHl = false
-    style = 'monokai'
+    style = 'tokyonight-night'
     tabWidth = 4
