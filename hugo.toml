@@ -7,7 +7,7 @@ rssLimit = 10
 canonifyURLs =  true
 
 PygmentsCodeFences = true
-PygmentsStyle = "onedark"
+PygmentsStyle = "monokai"
 
 
 [author]
