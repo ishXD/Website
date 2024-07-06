@@ -227,26 +227,26 @@ This is the trickiest part of the whole computer. It decides what the computer w
 
 Those control signals are:
 
-- SIG_HLT          Halt execution of the computer
-- SIG_PC_INC       Increment the Program Counter
-- SIG_PC_EN        Put the value in the Program Counter onto the bus
-- SIG_MEM_LOAD     Load an address into the Memory Address Register
-- SIG_MEM_EN       Put a value from memory onto the bus
-- SIG_IR_LOAD      Load a value from the bus into the Instruction Register
-- SIG_IR_EN        Put the value in the Instruction Register onto the bus
-- SIG_A_LOAD       Load a value from the bus into A
-- SIG_A_EN         Put the value in A onto the bus
-- SIG_B_LOAD       Load a value from the bus into B
-- SIG_ADDER_SUB    Subtract the value in B from A
-- SIG_ADDER_EN     Put the adder’s value onto the bus
+- SIG_HLT        -        Halt execution of the computer
+- SIG_PC_INC     -        Increment the Program Counter
+- SIG_PC_EN      -        Put the value in the Program Counter onto the bus
+- SIG_MEM_LOAD   -        Load an address into the Memory Address Register
+- SIG_MEM_EN     -        Put a value from memory onto the bus
+- SIG_IR_LOAD    -        Load a value from the bus into the Instruction Register
+- SIG_IR_EN      -        Put the value in the Instruction Register onto the bus
+- SIG_A_LOAD     -        Load a value from the bus into A
+- SIG_A_EN       -        Put the value in A onto the bus
+- SIG_B_LOAD     -        Load a value from the bus into B
+- SIG_ADDER_SUB  -        Subtract the value in B from A
+- SIG_ADDER_EN   -        Put the adder’s value onto the bus
 
 The *opcode* is passed from the IR into the controller module to do different things based on what instruction is currently executing.
 The SAP-1 has four operations that it can perform:
 
-- [0000] LDA $X Load the value at memory location $X into A.
-- [0001] ADD $X Add the value at memory location $X to A and store the sum in A.
-- [0010] SUB $X Subtract the value at memory location $X from A and store the difference in A.
-- [1111] HLT    Halt execution of the program.
+- [0000] LDA $X - Load the value at memory location $X into A.
+- [0001] ADD $X - Add the value at memory location $X to A and store the sum in A.
+- [0010] SUB $X - Subtract the value at memory location $X from A and store the difference in A.
+- [1111] HLT    - Halt execution of the program.
 
 The values in the brackets represent the *opcode* and all but *HLT* have an operand. LDA, for example, has the opcode 0000 and its operand is the address of the value to be loaded into A.
 
@@ -650,6 +650,7 @@ And here is the simulation (Satisfying ngl) :
 
 {{< image src="/images/other/sap1-sim.png" alt="Hello Friend" position="center" style="border-radius: 8px;" >}}
 
+The yellow signals show the values of reg_a and reg_b You can see the values of reg_a changing to 3 + 4 - 2 = 5 and then then hlt signal causes the clk to stop ticking.
 
 ## Source Code
 [Source Code](https://github.com/ishXD/SAP-1-FPGA)
